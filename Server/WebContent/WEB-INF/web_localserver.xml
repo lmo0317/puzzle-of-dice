@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>servlet</servlet-name>
+    <servlet-class>servlet.servlet</servlet-class>
+    <init-param>
+      <param-name>jdbcDriver</param-name>
+      <param-value>com.mysql.jdbc.Driver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>dbUrl</param-name>
+      <param-value>jdbc:mysql://localhost:3306/puzzleofdice?useUnicode=true&amp;characterEncoding=UTF-8</param-value>
+    </init-param>
+    <init-param>
+      <param-name>dbUser</param-name>
+      <param-value>root</param-value>
+    </init-param>
+    <init-param>
+      <param-name>dbPass</param-name>
+      <param-value>webclass</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet</servlet-name>
+    <url-pattern>/servlet</url-pattern>
+  </servlet-mapping>
+</web-app>

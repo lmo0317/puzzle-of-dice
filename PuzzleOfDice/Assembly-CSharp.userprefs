@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Panel\GameLoginHelp.cs">
+    <Files>
+      <File FileName="Assets\Scripts\serverconnector\ServerConnection.cs" Line="199" Column="48" />
+      <File FileName="Assets\Scripts\Panel\WorldRank.cs" Line="73" Column="47" />
+      <File FileName="Assets\Scripts\Panel\GameLoginHelp.cs" Line="24" Column="73" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="F:\pg\puzzleofdice\PuzzleOfDice\Assets\Scripts\serverconnector\ServerConnection.cs" line="113" />
+      <Breakpoint file="F:\pg\puzzleofdice\PuzzleOfDice\Assets\Scripts\serverconnector\ServerConnection.cs" line="201" />
+      <Breakpoint file="F:\pg\puzzleofdice\PuzzleOfDice\Assets\Scripts\Panel\GameLoginHelp.cs" line="19" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

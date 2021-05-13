@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\scene\TutorialSceneUI.cs">
+    <Files>
+      <File FileName="Assets\Scripts\scene\GameSceneUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\class\Message.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\scene\TutorialSceneUI.cs" Line="34" Column="3" />
+      <File FileName="Assets\Scripts\scene\SceneTitle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\scene\SceneGameOver.cs" Line="19" Column="46" />
+      <File FileName="Assets\Scripts\scene\MainGame.cs" Line="791" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
