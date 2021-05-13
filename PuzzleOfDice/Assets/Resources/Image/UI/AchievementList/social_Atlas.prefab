@@ -1,0 +1,981 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: social_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1c2ad7455b22c094098f146bf234b604, type: 2}
+  mSprites:
+  - name: AL_list_achievement_lock
+    x: 1932
+    y: 1878
+    width: 71
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_achievement_unlock
+    x: 1927
+    y: 831
+    width: 50
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_bg_down
+    x: 751
+    y: 1412
+    width: 610
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_bg_up
+    x: 1349
+    y: 792
+    width: 610
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_icon_bg
+    x: 1431
+    y: 1414
+    width: 49
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_icon_bg2
+    x: 722
+    y: 17
+    width: 64
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_icon_g
+    x: 1787
+    y: 1399
+    width: 27
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_icon_lock
+    x: 2027
+    y: 1985
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_list_icon_unlock
+    x: 2027
+    y: 2006
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_scroll_bar
+    x: 2025
+    y: 1013
+    width: 9
+    height: 384
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_scroll_button
+    x: 187
+    y: 58
+    width: 27
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_state_gauge
+    x: 1771
+    y: 909
+    width: 226
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_state_gauge_bg
+    x: 1771
+    y: 882
+    width: 226
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_state_icon_g
+    x: 2004
+    y: 1913
+    width: 39
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_state_icon_trophy
+    x: 142
+    y: 12
+    width: 33
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_state_trophy
+    x: 1362
+    y: 1401
+    width: 68
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_state_trophy_bg
+    x: 1932
+    y: 1953
+    width: 94
+    height: 95
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_window
+    x: 722
+    y: 821
+    width: 726
+    height: 576
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_window_close
+    x: 1998
+    y: 1829
+    width: 48
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AL_window_line
+    x: 1349
+    y: 709
+    width: 613
+    height: 12
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FD_button_request
+    x: 466
+    y: 181
+    width: 199
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 10
+  - name: FD_character
+    x: 722
+    y: 80
+    width: 220
+    height: 375
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 25
+    paddingTop: 51
+    paddingBottom: 60
+  - name: FD_check
+    x: 2004
+    y: 1880
+    width: 33
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 15
+    paddingBottom: 1
+  - name: FD_face_bg
+    x: 643
+    y: 85
+    width: 46
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 4
+    paddingBottom: 5
+  - name: FD_friend_bg
+    x: 722
+    y: 456
+    width: 450
+    height: 364
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 6
+  - name: FD_friend_line
+    x: 751
+    y: 1408
+    width: 377
+    height: 3
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 5
+  - name: FD_list_bg
+    x: 233
+    y: 44
+    width: 186
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FD_scroll_bar
+    x: 2017
+    y: 1437
+    width: 11
+    height: 246
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 1
+  - name: FD_scroll_button
+    x: 187
+    y: 8
+    width: 23
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 1
+  - name: FD_search
+    x: 1349
+    y: 757
+    width: 371
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 3
+  - name: FD_select
+    x: 1998
+    y: 1812
+    width: 16
+    height: 16
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: FD_tab1
+    x: 1591
+    y: 841
+    width: 141
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FD_tab2
+    x: 0
+    y: 2
+    width: 141
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: FD_window
+    x: 0
+    y: 814
+    width: 721
+    height: 583
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FD_window_close
+    x: 666
+    y: 132
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FI_01
+    x: 0
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FI_02
+    x: 0
+    y: 230
+    width: 721
+    height: 583
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FI_03
+    x: 666
+    y: 181
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FI_04
+    x: 1481
+    y: 1684
+    width: 450
+    height: 364
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 6
+  - name: FI_05
+    x: 233
+    y: 2
+    width: 141
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 0
+  - name: FI_06
+    x: 751
+    y: 1404
+    width: 377
+    height: 3
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 5
+  - name: FI_07
+    x: 466
+    y: 132
+    width: 199
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 10
+  - name: FI_08
+    x: 0
+    y: 44
+    width: 186
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FI_09
+    x: 1978
+    y: 835
+    width: 46
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 4
+    paddingBottom: 5
+  - name: FI_10
+    x: 2015
+    y: 1812
+    width: 16
+    height: 16
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: FI_11
+    x: 1349
+    y: 722
+    width: 371
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 3
+  - name: FI_12
+    x: 1449
+    y: 841
+    width: 141
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FI_13
+    x: 2005
+    y: 1437
+    width: 11
+    height: 246
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 1
+  - name: FI_14
+    x: 420
+    y: 59
+    width: 23
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 1
+  - name: FI_15
+    x: 2005
+    y: 1404
+    width: 33
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 15
+    paddingBottom: 1
+  - name: FI_16
+    x: 943
+    y: 80
+    width: 220
+    height: 375
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 25
+    paddingTop: 51
+    paddingBottom: 60
+  - name: FT_bg_cat1
+    x: 643
+    y: 8
+    width: 65
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 3
+    paddingBottom: 1
+  - name: FT_bg_cat2
+    x: 1932
+    y: 1728
+    width: 65
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 3
+    paddingBottom: 1
+  - name: FT_bg_cat3
+    x: 1932
+    y: 1803
+    width: 65
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 3
+    paddingBottom: 1
+  - name: FT_bg_g
+    x: 2027
+    y: 2027
+    width: 20
+    height: 21
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: FT_bg_trophy
+    x: 2027
+    y: 1963
+    width: 18
+    height: 21
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 0
+  - name: FT_button_helpall
+    x: 466
+    y: 34
+    width: 176
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 10
+  - name: FT_button_helpone
+    x: 1771
+    y: 845
+    width: 98
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 1
+  - name: FT_button_invite
+    x: 466
+    y: 83
+    width: 176
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 10
+  - name: FT_character
+    x: 1173
+    y: 461
+    width: 175
+    height: 359
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 12
+    paddingTop: 10
+    paddingBottom: 6
+  - name: FT_check
+    x: 1932
+    y: 1690
+    width: 39
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 2
+  - name: FT_face_bg
+    x: 1870
+    y: 825
+    width: 56
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FT_list_bg
+    x: 233
+    y: 109
+    width: 232
+    height: 120
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 3
+  - name: FT_list_bg2
+    x: 0
+    y: 109
+    width: 232
+    height: 120
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 3
+  - name: FT_window
+    x: 751
+    y: 1464
+    width: 729
+    height: 584
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 2
+  - name: FT_window_close
+    x: 1998
+    y: 1754
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LU_character
+    x: 1787
+    y: 1427
+    width: 217
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LU_likeus_bg
+    x: 1481
+    y: 1416
+    width: 305
+    height: 267
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LU_message_bg
+    x: 1449
+    y: 886
+    width: 321
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LU_window
+    x: 1449
+    y: 936
+    width: 575
+    height: 461
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LU_window_close
+    x: 1998
+    y: 1705
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

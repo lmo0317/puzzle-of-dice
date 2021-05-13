@@ -1,0 +1,565 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MainScreen_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: bc6ab9b5cde16db41a514729da5b464e, type: 2}
+  mSprites:
+  - name: loading_bg_bar
+    x: 322
+    y: 153
+    width: 398
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: loading_bg_bar_graph
+    x: 322
+    y: 132
+    width: 398
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: loading_bg_screen_1
+    x: 0
+    y: 747
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Logo
+    x: 751
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Main_bg1
+    x: 0
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Main_bg2
+    x: 0
+    y: 174
+    width: 738
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 2
+  - name: MS_achievement_bg
+    x: 1502
+    y: 1572
+    width: 354
+    height: 476
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_achievement_bg_graph
+    x: 0
+    y: 86
+    width: 225
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 3
+  - name: MS_achievement_graph
+    x: 0
+    y: 62
+    width: 225
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 3
+  - name: MS_achievement_icon_g
+    x: 2007
+    y: 1690
+    width: 37
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_achievement_icon_trophy
+    x: 1823
+    y: 1469
+    width: 26
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 7
+    paddingTop: 1
+    paddingBottom: 0
+  - name: MS_menu_btn_achievement
+    x: 1857
+    y: 1499
+    width: 37
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 9
+    paddingTop: 4
+    paddingBottom: 5
+  - name: MS_menu_btn_gamestart
+    x: 1502
+    y: 1511
+    width: 212
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_menu_btn_likeus
+    x: 2003
+    y: 1604
+    width: 44
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 4
+    paddingTop: 7
+    paddingBottom: 8
+  - name: MS_menu_btn_likeus_over
+    x: 1715
+    y: 1400
+    width: 113
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_menu_btn_message
+    x: 1910
+    y: 1606
+    width: 47
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 2
+    paddingBottom: 3
+  - name: MS_menu_btn_music_off
+    x: 1897
+    y: 1551
+    width: 36
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_btn_music_on
+    x: 1857
+    y: 1423
+    width: 36
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_btn_plus_dice
+    x: 1823
+    y: 1542
+    width: 28
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_menu_btn_plus_goldbar
+    x: 1823
+    y: 1512
+    width: 28
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_menu_btn_shop
+    x: 1658
+    y: 1404
+    width: 50
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 7
+  - name: MS_menu_btn_sound_off
+    x: 1857
+    y: 1461
+    width: 36
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_btn_sound_on
+    x: 2007
+    y: 1648
+    width: 36
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_btn_tutorial
+    x: 1857
+    y: 1589
+    width: 52
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_btn_withfriend
+    x: 1670
+    y: 1465
+    width: 42
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 5
+    paddingBottom: 4
+  - name: MS_menu_icon_dice
+    x: 1857
+    y: 1686
+    width: 149
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_icon_goldbar
+    x: 1857
+    y: 1644
+    width: 149
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: MS_menu_like
+    x: 1958
+    y: 1604
+    width: 44
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 4
+    paddingTop: 7
+    paddingBottom: 8
+  - name: MS_ranking_bg
+    x: 0
+    y: 237
+    width: 615
+    height: 509
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_bg_face
+    x: 1829
+    y: 1415
+    width: 27
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_bg_my
+    x: 0
+    y: 142
+    width: 321
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_bg_num1
+    x: 1502
+    y: 1420
+    width: 107
+    height: 90
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_bg_num2
+    x: 1715
+    y: 1500
+    width: 107
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_bg_num3
+    x: 1715
+    y: 1443
+    width: 107
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_bg_rest
+    x: 0
+    y: 110
+    width: 321
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_icon_num1
+    x: 1610
+    y: 1449
+    width: 59
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_icon_num2
+    x: 1610
+    y: 1398
+    width: 47
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_ranking_icon_num3
+    x: 1857
+    y: 1545
+    width: 39
+    height: 43
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MS_window_character
+    x: 1857
+    y: 1728
+    width: 156
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

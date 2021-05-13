@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Shop_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 85eebeb57f1a3ea49a5f68493d222cd0, type: 2}
+  mSprites:
+  - name: ico_discount
+    x: 586
+    y: 388
+    width: 102
+    height: 18
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ico_most_popular
+    x: 420
+    y: 234
+    width: 144
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ico_special_sale
+    x: 167
+    y: 10
+    width: 144
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_bg_list
+    x: 0
+    y: 386
+    width: 585
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_booster_bg1
+    x: 99
+    y: 34
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_booster_bg2
+    x: 420
+    y: 106
+    width: 63
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_booster_bg3
+    x: 420
+    y: 170
+    width: 63
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_booster_bg4
+    x: 319
+    y: 56
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_button_charge
+    x: 586
+    y: 407
+    width: 109
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_button_icon
+    x: 374
+    y: 15
+    width: 43
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_character
+    x: 0
+    y: 164
+    width: 166
+    height: 149
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_icon_boosterset
+    x: 99
+    y: 99
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_icon_dice
+    x: 319
+    y: 1
+    width: 54
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_icon_diceset
+    x: 345
+    y: 123
+    width: 68
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_icon_sale
+    x: 655
+    y: 322
+    width: 60
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_shopname
+    x: 167
+    y: 48
+    width: 151
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_window
+    x: 0
+    y: 455
+    width: 716
+    height: 569
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SD_button_charge
+    x: 167
+    y: 253
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 7
+    paddingBottom: 0
+  - name: SD_button_charge_icon
+    x: 642
+    y: 272
+    width: 41
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 2
+  - name: SD_button_friend
+    x: 167
+    y: 192
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 8
+    paddingBottom: 0
+  - name: SD_button_goldbar_plus
+    x: 99
+    y: 4
+    width: 28
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 2
+  - name: SD_goldbar_bg
+    x: 477
+    y: 314
+    width: 177
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 1
+    paddingTop: 15
+    paddingBottom: 3
+  - name: SD_window
+    x: 1244
+    y: 468
+    width: 414
+    height: 556
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 10
+  - name: SD_window_bg
+    x: 0
+    y: 48
+    width: 98
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 5
+  - name: SD_window_close
+    x: 420
+    y: 7
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SG_button_charge
+    x: 0
+    y: 11
+    width: 98
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 15
+  - name: SG_have_bg
+    x: 167
+    y: 120
+    width: 177
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 8
+    paddingTop: 14
+    paddingBottom: 6
+  - name: SG_list_bg
+    x: 0
+    y: 314
+    width: 476
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SG_list_icon
+    x: 420
+    y: 56
+    width: 49
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 5
+  - name: SG_security
+    x: 717
+    y: 373
+    width: 421
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SG_title
+    x: 420
+    y: 272
+    width: 221
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 16
+    paddingTop: 5
+    paddingBottom: 3
+  - name: SG_window
+    x: 717
+    y: 406
+    width: 526
+    height: 618
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

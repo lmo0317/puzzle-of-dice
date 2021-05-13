@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GamePlay_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6f8e9b55d1225414b94027d04f86adf5, type: 2}
+  mSprites:
+  - name: GE_bg
+    x: 696
+    y: 816
+    width: 638
+    height: 245
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 55
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GE_button_resume
+    x: 1693
+    y: 1437
+    width: 208
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 6
+  - name: GE_exit
+    x: 1855
+    y: 1083
+    width: 159
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: GPS_bg_grass
+    x: 751
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GPS_button_exit
+    x: 1902
+    y: 1461
+    width: 25
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 1
+  - name: GPS_dice_info
+    x: 1928
+    y: 1830
+    width: 103
+    height: 104
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 3
+    paddingTop: 7
+    paddingBottom: 4
+  - name: GR_button_dice
+    x: 2007
+    y: 1749
+    width: 32
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 13
+    paddingTop: 12
+    paddingBottom: 9
+  - name: GR_button_helpall
+    x: 1866
+    y: 1021
+    width: 171
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: GR_button_non
+    x: 1866
+    y: 980
+    width: 170
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: GR_check_dice
+    x: 1874
+    y: 1400
+    width: 38
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 6
+    paddingTop: 4
+    paddingBottom: 7
+  - name: GR_face_bg
+    x: 2007
+    y: 1789
+    width: 40
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GR_window
+    x: 696
+    y: 387
+    width: 228
+    height: 428
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GR_window_line
+    x: 0
+    y: 24
+    width: 206
+    height: 3
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 2
+  - name: GRB_booster_bg
+    x: 1928
+    y: 1594
+    width: 72
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_booster_bg2
+    x: 1928
+    y: 1935
+    width: 113
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_booster_charge_bg
+    x: 1928
+    y: 1540
+    width: 86
+    height: 53
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_booster1_bg
+    x: 0
+    y: 550
+    width: 586
+    height: 346
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_booster2_bg
+    x: 1276
+    y: 1062
+    width: 578
+    height: 335
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_booster3_bg
+    x: 696
+    y: 1062
+    width: 579
+    height: 335
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_booster4_bg
+    x: 0
+    y: 211
+    width: 579
+    height: 338
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_button_charge
+    x: 1693
+    y: 1400
+    width: 180
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: GRB_goldbar_bg
+    x: 1502
+    y: 1398
+    width: 190
+    height: 89
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_goldbar_plus
+    x: 2001
+    y: 1597
+    width: 28
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRB_line
+    x: 587
+    y: 807
+    width: 17
+    height: 89
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRM_bg
+    x: 0
+    y: 28
+    width: 638
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 55
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRM_go
+    x: 696
+    y: 255
+    width: 201
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 52
+    paddingTop: 1
+    paddingBottom: 0
+  - name: GRM_ready
+    x: 1335
+    y: 937
+    width: 356
+    height: 124
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 96
+    paddingRight: 96
+    paddingTop: 0
+    paddingBottom: 15
+  - name: GRY_booster_bg
+    x: 1928
+    y: 1475
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_booster_check
+    x: 1993
+    y: 1492
+    width: 47
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_booster_num_bg
+    x: 2015
+    y: 1561
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_booster_plus
+    x: 2001
+    y: 1624
+    width: 42
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_button_start
+    x: 1335
+    y: 872
+    width: 262
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_mark_message
+    x: 1928
+    y: 1667
+    width: 72
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_target_bg
+    x: 925
+    y: 757
+    width: 254
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_target_face_bg
+    x: 1928
+    y: 1740
+    width: 78
+    height: 89
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 11
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GRY_window
+    x: 1502
+    y: 1488
+    width: 425
+    height: 560
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TB_bg
+    x: 0
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TB_window
+    x: 0
+    y: 897
+    width: 695
+    height: 500
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TB_window_bg
+    x: 1692
+    y: 854
+    width: 173
+    height: 207
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 18
+    paddingTop: 1
+    paddingBottom: 1
+  - name: TB_window_button
+    x: 1335
+    y: 821
+    width: 248
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 44
+    paddingRight: 43
+    paddingTop: 0
+    paddingBottom: 3
+  - name: TB_window_character
+    x: 1855
+    y: 1128
+    width: 158
+    height: 269
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 8
+    paddingTop: 7
+    paddingBottom: 11
+  - name: TB_window_close
+    x: 2001
+    y: 1691
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

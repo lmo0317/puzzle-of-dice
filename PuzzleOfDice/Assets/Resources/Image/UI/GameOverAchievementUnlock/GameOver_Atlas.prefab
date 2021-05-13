@@ -1,0 +1,578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameOver_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fdf14c17e71321244a309a4007a9f6eb, type: 2}
+  mSprites:
+  - name: GN_03
+    x: 1804
+    y: 1401
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_achi_bg
+    x: 231
+    y: 101
+    width: 136
+    height: 135
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_achi_bg_g
+    x: 1965
+    y: 1503
+    width: 39
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_bg
+    x: 0
+    y: 747
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_button_next
+    x: 969
+    y: 104
+    width: 190
+    height: 53
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_button_share
+    x: 969
+    y: 158
+    width: 190
+    height: 53
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_character
+    x: 751
+    y: 27
+    width: 217
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_window
+    x: 0
+    y: 237
+    width: 703
+    height: 509
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GOAU_window_close
+    x: 1755
+    y: 1401
+    width: 48
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GON_bg
+    x: 751
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GON_button_retry
+    x: 1172
+    y: 357
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 4
+  - name: GON_window
+    x: 751
+    y: 284
+    width: 420
+    height: 556
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 3
+  - name: GON_window_bg
+    x: 1172
+    y: 418
+    width: 321
+    height: 422
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 27
+    paddingRight: 28
+    paddingTop: 0
+    paddingBottom: 106
+  - name: GORC_button_share
+    x: 368
+    y: 115
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 4
+  - name: GORC_window
+    x: 1502
+    y: 1492
+    width: 420
+    height: 556
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 3
+  - name: GORC_window_close
+    x: 1970
+    y: 1592
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GORD_button_charge
+    x: 368
+    y: 176
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 7
+    paddingBottom: 0
+  - name: GORD_button_charge_icon
+    x: 1923
+    y: 1501
+    width: 41
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 2
+  - name: GORD_button_friend
+    x: 1172
+    y: 296
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 8
+    paddingBottom: 0
+  - name: GORD_dice_bg
+    x: 1755
+    y: 1450
+    width: 149
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: GORD_dice_bg2
+    x: 1502
+    y: 1407
+    width: 84
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GORD_window
+    x: 1587
+    y: 841
+    width: 414
+    height: 556
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 10
+  - name: GORD_window_bg
+    x: 1923
+    y: 1819
+    width: 98
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 5
+  - name: GORD_window_close
+    x: 1851
+    y: 1401
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GORR_arrow_down
+    x: 1923
+    y: 1641
+    width: 52
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 9
+    paddingBottom: 8
+  - name: GORR_arrow_up
+    x: 1976
+    y: 1641
+    width: 52
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 5
+  - name: GORR_bg
+    x: 0
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GORR_button_share
+    x: 1502
+    y: 1431
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 4
+  - name: GORR_face_bg
+    x: 1923
+    y: 1935
+    width: 109
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 1
+    paddingBottom: 4
+  - name: GORR_window
+    x: 751
+    y: 841
+    width: 420
+    height: 556
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 3
+  - name: GORR_window_bg
+    x: 0
+    y: 14
+    width: 230
+    height: 222
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 2
+  - name: GORR_window_close
+    x: 1923
+    y: 1592
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SD_button_charge
+    x: 1172
+    y: 235
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 7
+    paddingBottom: 0
+  - name: SD_button_charge_icon
+    x: 1970
+    y: 1550
+    width: 41
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 2
+  - name: SD_button_friend
+    x: 368
+    y: 54
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 8
+    paddingBottom: 0
+  - name: SD_button_goldbar_plus
+    x: 1616
+    y: 1401
+    width: 28
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 2
+  - name: SD_goldbar_bg
+    x: 969
+    y: 212
+    width: 177
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 1
+    paddingTop: 15
+    paddingBottom: 3
+  - name: SD_window
+    x: 1172
+    y: 841
+    width: 414
+    height: 556
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 10
+  - name: SD_window_bg
+    x: 1923
+    y: 1703
+    width: 98
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 5
+  - name: SD_window_close
+    x: 1923
+    y: 1543
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

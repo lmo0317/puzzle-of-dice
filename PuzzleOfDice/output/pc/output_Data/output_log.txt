@@ -1,0 +1,22 @@
+Initialize engine version: 4.2.1f4 (4d30acc925c2)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7650M Series (ID=0x6841)
+    Vendor:   ATI
+    VRAM:     1007 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\IFacebook.dll (this message is harmless)
+Loading C:\Users\LEE-NOTEBOOK\Desktop\PUzzleOfDice\PuzzleOfDice\output\pc\output_Data\Managed\IFacebook.dll into Unity Child Domain
+- Completed reload, in  0.089 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Waiting for finish

@@ -1,0 +1,565 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Tutorial_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 57f37c3097aac3f4ca2b049c032c4493, type: 2}
+  mSprites:
+  - name: balloonbg
+    x: 704
+    y: 716
+    width: 697
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 28
+    paddingTop: 4
+    paddingBottom: 21
+  - name: dice
+    x: 1479
+    y: 1451
+    width: 177
+    height: 235
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 3
+  - name: GLH_button_add
+    x: 1970
+    y: 1926
+    width: 53
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GLH_button_help
+    x: 0
+    y: 9
+    width: 252
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GLH_character
+    x: 1831
+    y: 1503
+    width: 159
+    height: 183
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 7
+    paddingTop: 9
+    paddingBottom: 11
+  - name: GLH_check
+    x: 2004
+    y: 1793
+    width: 26
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GLH_face_bg
+    x: 1970
+    y: 1869
+    width: 56
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GLH_select
+    x: 2024
+    y: 1970
+    width: 16
+    height: 16
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: GLH_select_bg
+    x: 1402
+    y: 815
+    width: 287
+    height: 81
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GLH_window
+    x: 751
+    y: 1462
+    width: 727
+    height: 586
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GLH_window_bg
+    x: 1831
+    y: 1405
+    width: 104
+    height: 97
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 0
+  - name: GM_button_accept
+    x: 1811
+    y: 1691
+    width: 98
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GM_button_list_close
+    x: 2020
+    y: 1839
+    width: 26
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GM_friend_bg
+    x: 1970
+    y: 1819
+    width: 49
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: GM_icon_gift
+    x: 1479
+    y: 1400
+    width: 41
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 10
+    paddingTop: 7
+    paddingBottom: 3
+  - name: GM_icon_num
+    x: 1970
+    y: 1785
+    width: 33
+    height: 33
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GM_line
+    x: 704
+    y: 697
+    width: 585
+    height: 8
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: GM_line1
+    x: 704
+    y: 706
+    width: 585
+    height: 9
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GM_list_base_bg
+    x: 0
+    y: 70
+    width: 579
+    height: 315
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GM_list_bg
+    x: 751
+    y: 1398
+    width: 579
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GM_window
+    x: 0
+    y: 890
+    width: 703
+    height: 507
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 4
+  - name: icon_arrow
+    x: 1657
+    y: 1405
+    width: 97
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 8
+    paddingTop: 4
+    paddingBottom: 4
+  - name: icon_arrow2
+    x: 1690
+    y: 823
+    width: 307
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 8
+    paddingTop: 3
+    paddingBottom: 3
+  - name: icon_star
+    x: 1970
+    y: 1987
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 2
+  - name: key_arrow
+    x: 1682
+    y: 962
+    width: 197
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: key_shift
+    x: 1331
+    y: 1398
+    width: 143
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_keyboard
+    x: 1400
+    y: 1090
+    width: 281
+    height: 307
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 2
+  - name: select_mouse
+    x: 1682
+    y: 1090
+    width: 281
+    height: 307
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: select_selector
+    x: 1479
+    y: 1687
+    width: 331
+    height: 361
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 4
+  - name: TB_bg
+    x: 0
+    y: 1398
+    width: 750
+    height: 650
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TB_window
+    x: 704
+    y: 897
+    width: 695
+    height: 500
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TB_window_bg
+    x: 1657
+    y: 1479
+    width: 173
+    height: 207
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 18
+    paddingTop: 1
+    paddingBottom: 1
+  - name: TB_window_button
+    x: 253
+    y: 19
+    width: 248
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 44
+    paddingRight: 43
+    paddingTop: 0
+    paddingBottom: 3
+  - name: TB_window_character
+    x: 1811
+    y: 1779
+    width: 158
+    height: 269
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 8
+    paddingTop: 7
+    paddingBottom: 11
+  - name: TB_window_close
+    x: 2000
+    y: 1730
+    width: 46
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TC_button_next
+    x: 1682
+    y: 912
+    width: 188
+    height: 49
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 4
+  - name: TC_button_share
+    x: 1811
+    y: 1728
+    width: 188
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 3
+  - name: TC_window
+    x: 0
+    y: 386
+    width: 697
+    height: 503
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 6
+  - name: TC_window_character
+    x: 1400
+    y: 907
+    width: 158
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 10
+    paddingBottom: 4
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

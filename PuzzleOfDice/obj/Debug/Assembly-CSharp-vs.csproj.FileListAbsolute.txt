@@ -1,0 +1,13 @@
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\Assembly-CSharp.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\Assembly-CSharp.pdb
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\IFacebook.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\LitJson.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\UnityEditor.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\UnityEngine.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\Mono.Cecil.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\nunit.framework.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\Unity.DataContract.dll
+F:\pg\puzzleofdice\PuzzleOfDice\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+F:\pg\puzzleofdice\PuzzleOfDice\obj\Debug\Assembly-CSharp.dll
+F:\pg\puzzleofdice\PuzzleOfDice\obj\Debug\Assembly-CSharp.pdb
+F:\pg\puzzleofdice\PuzzleOfDice\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
