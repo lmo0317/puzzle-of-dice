@@ -24,10 +24,6 @@ DB : MySQL / 유저 정보 저장
 
 ---
 
-## **소개 영상**
-
----
-
 ## 상세 설명
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fs4aVd%2Fbtq4dw8JOI8%2FKmK4Ewl8ZeD7ze2r1CxBMK%2Fimg.png)
