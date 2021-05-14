@@ -30,7 +30,7 @@ DB : MySQL / 유저 정보 저장
 
 ## 상세 설명
 
-[##_Image|kage@s4aVd/btq4dw8JOI8/KmK4Ewl8ZeD7ze2r1CxBMK/img.png|alignCenter|data-filename="스크린샷 2014-06-30 05.12.25.png" data-origin-width="1600" data-origin-height="868" data-ke-mobilestyle="widthContent"|||_##]
+[##_Image|kage@https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fs4aVd%2Fbtq4dw8JOI8%2FKmK4Ewl8ZeD7ze2r1CxBMK%2Fimg.png|alignCenter|data-filename="스크린샷 2014-06-30 05.12.25.png" data-origin-width="1600" data-origin-height="868" data-ke-mobilestyle="widthContent"|||_##]
 
 -   facebook을 통해서 웹환경에서 게임 진행 가능
 
