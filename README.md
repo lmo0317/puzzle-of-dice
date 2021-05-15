@@ -32,7 +32,7 @@ DB : MySQL / 유저 정보 저장
 
 ---
 
-[##_Image|kage@beKO4R/btq4bmUeye6/RJbEZJK6u54HKdvXK0kSh1/img.png|alignCenter|data-filename="스크린샷 2014-06-30 05.12.16.png" data-origin-width="1600" data-origin-height="868" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbeKO4R%2Fbtq4bmUeye6%2FRJbEZJK6u54HKdvXK0kSh1%2Fimg.png)
 
 -   랭킹 시스템
     -   플레이 점수를 game server에 저장하고 페이스북 친구리스트를 이용해 랭킹 시스템을 만든다.
@@ -40,7 +40,8 @@ DB : MySQL / 유저 정보 저장
 
 ---
 
-[##_Image|kage@9s3Ca/btq4biqLQhg/hSriaycDArd91Tzqygn5yk/img.png|alignCenter|data-filename="스크린샷 2014-06-30 05.12.53.png" data-origin-width="1600" data-origin-height="868" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@b3QXku/btq4bZcXaC0/MKNeitiuuSkLlpUQZNfGCk/img.png|widthContent|data-origin-width="595" data-origin-height="516" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9s3Ca%2Fbtq4biqLQhg%2FhSriaycDArd91Tzqygn5yk%2Fimg.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb3QXku%2Fbtq4bZcXaC0%2FMKNeitiuuSkLlpUQZNfGCk%2Fimg.png)
 
 -   주사위 시스템  
     -   주사위가 있어야 게임을 진행 할수 있고 게임 1판에 주사위 1개씩 차감된다.
@@ -50,7 +51,7 @@ DB : MySQL / 유저 정보 저장
 
 ---
 
-[##_Image|kage@6PG6k/btq4dwt8myi/KhFLwDK5vLEgQV6qPlkjAk/img.png|alignCenter|data-filename="스크린샷 2014-06-30 05.31.21.png" data-origin-width="1600" data-origin-height="868" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6PG6k%2Fbtq4dwt8myi%2FKhFLwDK5vLEgQV6qPlkjAk%2Fimg.png)
 
 -   Game Score 저장
     -   게임이 종료 될때 획득한 점수를 Game Server에 전송해서 저장한다.
@@ -58,7 +59,8 @@ DB : MySQL / 유저 정보 저장
 
 ---
 
-[##_Image|kage@GX2aG/btq4biK7oMa/FoA63SAfvMlPffBGhW2xj1/img.png|widthContent|data-origin-width="600" data-origin-height="513" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@90NPn/btq4bOCHWC2/os1iPuuqPyGZxtQKqAcX61/img.png|widthContent|data-origin-width="600" data-origin-height="516" data-ke-mobilestyle="widthContent"|||_##]
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGX2aG%2Fbtq4biK7oMa%2FFoA63SAfvMlPffBGhW2xj1%2Fimg.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F90NPn%2Fbtq4bOCHWC2%2Fos1iPuuqPyGZxtQKqAcX61%2Fimg.png)
 
 -   다국어 지원 기능
     -   KOR / ENG 언어 선택 가능
